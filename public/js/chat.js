@@ -17,6 +17,7 @@ function scrollPage () {
     }
 }
 
+
 socket.on('connect', () => {
     const params = $.deparam(window.location.search);
 
@@ -26,9 +27,11 @@ socket.on('connect', () => {
             window.location.href = '/';
         } else{
             console.log("No error");
+            $('#room_name').text(params.room);
         }
     });
 });
+
 
 socket.on('disconnect', () =>{
     console.log('Disconnected from the server');
