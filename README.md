@@ -7,7 +7,7 @@ Download/clone the repository, run `node server/server.js`
 
 ## Live demo
 
-https://git.heroku.com/hidden-temple-91463.git
+https://hidden-temple-91463.herokuapp.com/
 
 ## License 
 MIT
